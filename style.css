@@ -1,0 +1,139 @@
+:root {
+  font-size: 10px;
+  --color-border: #D0D0D0;
+  --color-backgroung: #EAEAEA;
+  --color-btn1: #13C2C2;
+  --color-btn2: #1890FF;
+}
+
+* *::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  list-style: none;
+}
+
+.post {
+  display: inline-block;
+  background-color: var(--color-backgroung);
+
+
+  width: 350px;
+  height: 600px;
+
+  border: 2px solid var(--color-border);
+  border-radius: 20px;
+
+  box-shadow: 1px 1px 5px 0px #504C4C;
+
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+img {
+  position: absolute;
+  width: 333px;
+  height: 263px;
+  top: 22.5px;
+  left: 18.5px;
+  border-radius: 13;
+
+}
+
+.btn1 {
+
+  background-color: var(--color-btn1);
+}
+
+.btn2 {
+  background-color: var(--color-btn2);
+}
+
+.btn {
+  position: relative;
+
+  display: inline-block;
+
+  margin-left: 7px;
+  width: 71px;
+  height: 21px;
+
+  border-radius: 10.5px;
+
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  line-height: 21px;
+  color: #FFFFFF;
+
+  top: 300px;
+  left: 12px;
+
+  transition: all;
+}
+
+.btn:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+article {
+  margin-left: 7px;
+  position: absolute;
+  width: 333px;
+  height: 153px;
+  top: 325px;
+  left: 18.5px;
+
+}
+h1 {
+  width: 190px;
+  height: 29px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #084150;
+}
+
+p {
+  position: relative;
+  top: -10px;
+  Width: 311px;
+  Height: 114px;
+  color: #0A4251;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: justify;
+
+
+  background: linear-gradient(to bottom, #0a4251a5 0%, transparent 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.btn3 {
+  background-color: #59889A;
+  position: relative;
+  width: 156px;
+  height: 53px;
+  border-radius: 57px;  
+  top: 500px;
+  left: 97px;
+
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  line-height: 53px;
+}
